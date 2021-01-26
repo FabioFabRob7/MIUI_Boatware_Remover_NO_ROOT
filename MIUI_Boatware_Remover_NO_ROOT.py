@@ -27,8 +27,8 @@ def ADB_FASTBOOT_L():
 
 def Windows():
     subprocess.call(["adb","devices"])
-    
     select_app()
+    
 def select_app():
     program = input("Enter exit for exit\nSelect the bloatware app to remove\nAndroid Bloatware          Google Bloatware          MIUI Bloatware\n\n1) Web Browser             4) Google Docs            11) Mi File Manager\n2) Chrome                  5) Google Maps            12) Mi Health\n3) Ok Google               6) Google Photos          13) Mi Wallet\n                           7) Google Duo             14) MIUI Analytics\n                           8) Gmail                  15) Mi Calculator\n                           9) Gboard                 16) MIUI Compass\n                           10) Youtube               17) MIUI FM\n                                                     18) MIUI Gallery\n                                                     19) Music Player\n                                                     20) MIUI Video player\n                                                     21) Weather app\n\n")
     if program == '1':
